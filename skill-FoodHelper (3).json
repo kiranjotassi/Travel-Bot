@@ -1,0 +1,2167 @@
+{
+  "intents": [
+    {
+      "intent": "aboutAgency",
+      "examples": [
+        {
+          "text": "i want to know about you"
+        },
+        {
+          "text": "Tell me about the agency"
+        },
+        {
+          "text": "what are your hours?"
+        },
+        {
+          "text": "What services do you provide?"
+        },
+        {
+          "text": "Where are you located?"
+        }
+      ],
+      "description": "Information on the Agency"
+    },
+    {
+      "intent": "agency_operating_hours",
+      "examples": [
+        {
+          "text": "At what time do you open?"
+        },
+        {
+          "text": "Restaurant openin hours"
+        },
+        {
+          "text": "What are the restaurant opening hours"
+        },
+        {
+          "text": "what are your hours today"
+        },
+        {
+          "text": "What time do you close?"
+        },
+        {
+          "text": "what time do you open"
+        },
+        {
+          "text": "When does the restaurant close?"
+        },
+        {
+          "text": "When do you close?"
+        },
+        {
+          "text": "When do you open?"
+        },
+        {
+          "text": "When is the restaurant open?"
+        },
+        {
+          "text": "Where are you located"
+        }
+      ],
+      "description": "When the agency is open"
+    },
+    {
+      "intent": "book_flight",
+      "examples": [
+        {
+          "text": "book me a flight"
+        },
+        {
+          "text": "Book me a restaurant"
+        },
+        {
+          "text": "Book me a restaurant please"
+        },
+        {
+          "text": "flight booking"
+        },
+        {
+          "text": "I want to be on a flight"
+        },
+        {
+          "text": "I want to book me a place in a restaurant"
+        },
+        {
+          "text": "I want to book me a place on the plane"
+        },
+        {
+          "text": "I want to go to the restaurant"
+        },
+        {
+          "text": "I would like to book a flight"
+        },
+        {
+          "text": "Restaurant booking"
+        }
+      ],
+      "description": "Booking a flight"
+    },
+    {
+      "intent": "CANCEL",
+      "examples": [
+        {
+          "text": "cancel"
+        },
+        {
+          "text": "cancel game"
+        },
+        {
+          "text": "end game"
+        },
+        {
+          "text": "end this"
+        },
+        {
+          "text": "end this please"
+        },
+        {
+          "text": "I do not want to do this"
+        },
+        {
+          "text": "I do not want to play anymore"
+        },
+        {
+          "text": "I do not want to play this"
+        },
+        {
+          "text": "I dont want to do this anymore"
+        },
+        {
+          "text": "I dont want to play anymore"
+        },
+        {
+          "text": "I dont want to play this"
+        },
+        {
+          "text": "I want to cancel"
+        },
+        {
+          "text": "I want to end now"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I want to stop playing"
+        },
+        {
+          "text": "I want to stop playing this"
+        },
+        {
+          "text": "I want you to stop this"
+        },
+        {
+          "text": "please cancel"
+        },
+        {
+          "text": "quit"
+        },
+        {
+          "text": "quit game"
+        },
+        {
+          "text": "quit this please"
+        },
+        {
+          "text": "stop"
+        },
+        {
+          "text": "stop game"
+        },
+        {
+          "text": "stop it"
+        },
+        {
+          "text": "stop playing"
+        },
+        {
+          "text": "stop this"
+        }
+      ]
+    },
+    {
+      "intent": "CancelOrder",
+      "examples": [
+        {
+          "text": "Can I cancel my order?"
+        },
+        {
+          "text": "I'd like to cancel my order"
+        },
+        {
+          "text": "I need to cancel an order I just placed"
+        },
+        {
+          "text": "I want to cancel my order"
+        },
+        {
+          "text": "There's been a change. I need to cancel my order. please cancel the order I placed last week"
+        }
+      ],
+      "description": "Customer wants to cancel the order"
+    },
+    {
+      "intent": "FlightReservation",
+      "examples": [
+        {
+          "text": "Book a flight"
+        },
+        {
+          "text": "Can 3 of us get a table for lunch?"
+        },
+        {
+          "text": "can i reserve a table?"
+        },
+        {
+          "text": "do you have openings for next Wednesday at 7?"
+        },
+        {
+          "text": "i'd like to come in for brunch tomorrow"
+        },
+        {
+          "text": "i'd like to make a reservation"
+        },
+        {
+          "text": "I need a flight"
+        },
+        {
+          "text": "Is there availability for 4 on Tuesday night?"
+        },
+        {
+          "text": "I want to reserve a table for dinner"
+        },
+        {
+          "text": "I would like to book a flight"
+        }
+      ],
+      "description": "Customer can make a reservation"
+    },
+    {
+      "intent": "GOODBYE",
+      "examples": [
+        {
+          "text": "adieu"
+        },
+        {
+          "text": "adios"
+        },
+        {
+          "text": "afk"
+        },
+        {
+          "text": "another time"
+        },
+        {
+          "text": "auf wiedersehen"
+        },
+        {
+          "text": "au revoir"
+        },
+        {
+          "text": "bai bai"
+        },
+        {
+          "text": "be seeing you"
+        },
+        {
+          "text": "brb"
+        },
+        {
+          "text": "by by"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "bye bye"
+        },
+        {
+          "text": "byebye"
+        },
+        {
+          "text": "call it a night"
+        },
+        {
+          "text": "catch you later"
+        },
+        {
+          "text": "catch-you-later"
+        },
+        {
+          "text": "cheers"
+        },
+        {
+          "text": "ciao"
+        },
+        {
+          "text": "ciao means goodbye"
+        },
+        {
+          "text": "c ya"
+        },
+        {
+          "text": "disconnect me"
+        },
+        {
+          "text": "end"
+        },
+        {
+          "text": "exit"
+        },
+        {
+          "text": "farewell"
+        },
+        {
+          "text": "g2g"
+        },
+        {
+          "text": "g'bye"
+        },
+        {
+          "text": "get lost"
+        },
+        {
+          "text": "g night"
+        },
+        {
+          "text": "god bless you"
+        },
+        {
+          "text": "go home"
+        },
+        {
+          "text": "good by"
+        },
+        {
+          "text": "good-by"
+        },
+        {
+          "text": "good bye"
+        },
+        {
+          "text": "good-bye"
+        },
+        {
+          "text": "goodbye"
+        },
+        {
+          "text": "good day"
+        },
+        {
+          "text": "good night"
+        },
+        {
+          "text": "goodnight"
+        },
+        {
+          "text": "good night sleep tight do not let the bed bugs bite"
+        },
+        {
+          "text": "good nite"
+        },
+        {
+          "text": "gotta go"
+        },
+        {
+          "text": "got to go"
+        },
+        {
+          "text": "got to run"
+        },
+        {
+          "text": "gtg"
+        },
+        {
+          "text": "have a better un"
+        },
+        {
+          "text": "have a good day"
+        },
+        {
+          "text": "have a good night"
+        },
+        {
+          "text": "have a great day"
+        },
+        {
+          "text": "have a nice day"
+        },
+        {
+          "text": "have to boogie"
+        },
+        {
+          "text": "have to get going"
+        },
+        {
+          "text": "have to go"
+        },
+        {
+          "text": "have to leave"
+        },
+        {
+          "text": "have to quit"
+        },
+        {
+          "text": "have to stop"
+        },
+        {
+          "text": "heh. ok. time to go"
+        },
+        {
+          "text": "I am going to go"
+        },
+        {
+          "text": "I am gone"
+        },
+        {
+          "text": "I am late for something"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am on my way"
+        },
+        {
+          "text": "I g2g"
+        },
+        {
+          "text": "I go"
+        },
+        {
+          "text": "I going"
+        },
+        {
+          "text": "I got to go"
+        },
+        {
+          "text": "I g two g"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I have to get going"
+        },
+        {
+          "text": "I have to go bye"
+        },
+        {
+          "text": "I have to leave"
+        },
+        {
+          "text": "I have to leave you"
+        },
+        {
+          "text": "I have to run"
+        },
+        {
+          "text": "I hope to see you later"
+        },
+        {
+          "text": "I leave"
+        },
+        {
+          "text": "I leaving"
+        },
+        {
+          "text": "I left"
+        },
+        {
+          "text": "I must go"
+        },
+        {
+          "text": "I must go now"
+        },
+        {
+          "text": "I must leave"
+        },
+        {
+          "text": "I need to go"
+        },
+        {
+          "text": "I need to go now"
+        },
+        {
+          "text": "I quit"
+        },
+        {
+          "text": "I resign"
+        },
+        {
+          "text": "it is good talking to you"
+        },
+        {
+          "text": "it is nice to meet you too"
+        },
+        {
+          "text": "it was good meeting you"
+        },
+        {
+          "text": "it was good to meet you"
+        },
+        {
+          "text": "it was nice meeting you"
+        },
+        {
+          "text": "it was nice to meet you"
+        },
+        {
+          "text": "I want to go now"
+        },
+        {
+          "text": "I want to leave"
+        },
+        {
+          "text": "I will be back"
+        },
+        {
+          "text": "later"
+        },
+        {
+          "text": "later 'gator"
+        },
+        {
+          "text": "leave"
+        },
+        {
+          "text": "miss you"
+        },
+        {
+          "text": "nice to meet you"
+        },
+        {
+          "text": "nice to see you"
+        },
+        {
+          "text": "nighty-night"
+        },
+        {
+          "text": "nite-nite"
+        },
+        {
+          "text": "quit"
+        },
+        {
+          "text": "sayonara"
+        },
+        {
+          "text": "see you"
+        },
+        {
+          "text": "see you later"
+        },
+        {
+          "text": "see you later aligator"
+        },
+        {
+          "text": "see you soon"
+        },
+        {
+          "text": "see you tomorrow"
+        },
+        {
+          "text": "so long"
+        },
+        {
+          "text": "take care"
+        },
+        {
+          "text": "take care of yourself"
+        },
+        {
+          "text": "talk to you later"
+        },
+        {
+          "text": "ta ta"
+        },
+        {
+          "text": "thanks for a good chat"
+        },
+        {
+          "text": "Thank you for this conversation"
+        },
+        {
+          "text": "that is all"
+        },
+        {
+          "text": "that's enough for today"
+        },
+        {
+          "text": "through for now"
+        },
+        {
+          "text": "through with you for now"
+        },
+        {
+          "text": "til another time"
+        },
+        {
+          "text": "til next time"
+        },
+        {
+          "text": "til we meed again"
+        },
+        {
+          "text": "time to be going"
+        },
+        {
+          "text": "time to go"
+        },
+        {
+          "text": "toodeloo"
+        },
+        {
+          "text": "toodle pip"
+        },
+        {
+          "text": "toodles"
+        },
+        {
+          "text": "until next time"
+        },
+        {
+          "text": "you all come back now"
+        }
+      ]
+    },
+    {
+      "intent": "GREETING",
+      "examples": [
+        {
+          "text": "Ahoy"
+        },
+        {
+          "text": "allo"
+        },
+        {
+          "text": "aloha"
+        },
+        {
+          "text": "anybody home"
+        },
+        {
+          "text": "Bongiorno"
+        },
+        {
+          "text": "Buenos dias"
+        },
+        {
+          "text": "captain here"
+        },
+        {
+          "text": "cheers"
+        },
+        {
+          "text": "ciao"
+        },
+        {
+          "text": "como esta"
+        },
+        {
+          "text": "como estas"
+        },
+        {
+          "text": "Dobry den."
+        },
+        {
+          "text": "evening"
+        },
+        {
+          "text": "gidday"
+        },
+        {
+          "text": "good afternoon"
+        },
+        {
+          "text": "good day"
+        },
+        {
+          "text": "good evening"
+        },
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "good to meet you"
+        },
+        {
+          "text": "good to see you again"
+        },
+        {
+          "text": "greetings"
+        },
+        {
+          "text": "Gutten tag."
+        },
+        {
+          "text": "halo"
+        },
+        {
+          "text": "hella"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "hello again"
+        },
+        {
+          "text": "hello and welcome"
+        },
+        {
+          "text": "Hello! Anybody there to talk?"
+        },
+        {
+          "text": "hello how are you"
+        },
+        {
+          "text": "hello there"
+        },
+        {
+          "text": "Hello there! How is it going?"
+        },
+        {
+          "text": "hey"
+        },
+        {
+          "text": "heya"
+        },
+        {
+          "text": "Hey bot"
+        },
+        {
+          "text": "hey there"
+        },
+        {
+          "text": "hey you"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "Hi bot"
+        },
+        {
+          "text": "hi everybody"
+        },
+        {
+          "text": "hi how are you"
+        },
+        {
+          "text": "hiya"
+        },
+        {
+          "text": "hi you all"
+        },
+        {
+          "text": "hoi"
+        },
+        {
+          "text": "How are you?"
+        },
+        {
+          "text": "how are you doing?"
+        },
+        {
+          "text": "howdy"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "hullo"
+        },
+        {
+          "text": "is anyone there"
+        },
+        {
+          "text": "konbanwa"
+        },
+        {
+          "text": "konnichi wa"
+        },
+        {
+          "text": "konnichiwa"
+        },
+        {
+          "text": "mornin'"
+        },
+        {
+          "text": "morning"
+        },
+        {
+          "text": "nice to meet you"
+        },
+        {
+          "text": "nice to see you"
+        },
+        {
+          "text": "ola"
+        },
+        {
+          "text": "salutations"
+        },
+        {
+          "text": "Sup"
+        },
+        {
+          "text": "top of the morning"
+        },
+        {
+          "text": "top of the morning to you"
+        },
+        {
+          "text": "Wassup"
+        },
+        {
+          "text": "Welcome"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "you are welcome"
+        },
+        {
+          "text": "Zdravstvuj"
+        }
+      ]
+    },
+    {
+      "intent": "help",
+      "examples": [
+        {
+          "text": "Can you help me please?"
+        },
+        {
+          "text": "Help me"
+        },
+        {
+          "text": "I am lost"
+        },
+        {
+          "text": "I do not know what to say"
+        },
+        {
+          "text": "What can I say?"
+        }
+      ]
+    },
+    {
+      "intent": "I_am_fine",
+      "examples": [
+        {
+          "text": "Fine."
+        },
+        {
+          "text": "Good, thank you."
+        },
+        {
+          "text": "I am fine."
+        },
+        {
+          "text": "I am well."
+        },
+        {
+          "text": "I feel fine."
+        },
+        {
+          "text": "Well."
+        }
+      ]
+    },
+    {
+      "intent": "I_DONT_KNOW",
+      "examples": [
+        {
+          "text": "do not follow that"
+        },
+        {
+          "text": "do not follow you"
+        },
+        {
+          "text": "do not get it"
+        },
+        {
+          "text": "I am confused"
+        },
+        {
+          "text": "I am lost"
+        },
+        {
+          "text": "I am totally lost"
+        },
+        {
+          "text": "I did not quite catch that"
+        },
+        {
+          "text": "I did not understand"
+        },
+        {
+          "text": "I do not get it"
+        },
+        {
+          "text": "I do not know"
+        },
+        {
+          "text": "I do not know if it is true or not"
+        },
+        {
+          "text": "I do not know if that is true or not"
+        },
+        {
+          "text": "I do not know what to do"
+        },
+        {
+          "text": "I do not quite follow you"
+        },
+        {
+          "text": "I do not understand"
+        },
+        {
+          "text": "I do not understand that"
+        },
+        {
+          "text": "I have no idea"
+        },
+        {
+          "text": "I just do not get it"
+        },
+        {
+          "text": "maybe"
+        },
+        {
+          "text": "no comprende"
+        },
+        {
+          "text": "no idea"
+        },
+        {
+          "text": "non comprende"
+        },
+        {
+          "text": "not a clue"
+        },
+        {
+          "text": "perhaps"
+        }
+      ]
+    },
+    {
+      "intent": "job_opportunities",
+      "examples": [
+        {
+          "text": "Are you hiring?"
+        },
+        {
+          "text": "Are you looking for employees?"
+        },
+        {
+          "text": "Do you have any job openings?"
+        },
+        {
+          "text": "Do you have any openings for chefs?"
+        },
+        {
+          "text": "Do you need any waiters?"
+        },
+        {
+          "text": "I am a hostess; do you have any open positions?"
+        },
+        {
+          "text": "I'd like to work for you."
+        },
+        {
+          "text": "I'm interested in a job"
+        }
+      ]
+    },
+    {
+      "intent": "NO",
+      "examples": [
+        {
+          "text": "disagree"
+        },
+        {
+          "text": "do not be absurd"
+        },
+        {
+          "text": "do not be ridiculous"
+        },
+        {
+          "text": "do not be silly"
+        },
+        {
+          "text": "do not be stupid"
+        },
+        {
+          "text": "he does not"
+        },
+        {
+          "text": "he is not"
+        },
+        {
+          "text": "hell no"
+        },
+        {
+          "text": "I could not disagree more"
+        },
+        {
+          "text": "I disagree"
+        },
+        {
+          "text": "I do not"
+        },
+        {
+          "text": "I do not agree"
+        },
+        {
+          "text": "I do not believe it"
+        },
+        {
+          "text": "I do not believe so"
+        },
+        {
+          "text": "I do not believe you"
+        },
+        {
+          "text": "I do not think so"
+        },
+        {
+          "text": "I do not want to"
+        },
+        {
+          "text": "I dont think so"
+        },
+        {
+          "text": "I doubt it"
+        },
+        {
+          "text": "impossible"
+        },
+        {
+          "text": "improbable"
+        },
+        {
+          "text": "inconceivable"
+        },
+        {
+          "text": "I refuse"
+        },
+        {
+          "text": "it does not"
+        },
+        {
+          "text": "I think not"
+        },
+        {
+          "text": "it is not"
+        },
+        {
+          "text": "it is not possible"
+        },
+        {
+          "text": "it is unlikely"
+        },
+        {
+          "text": "it may not be true"
+        },
+        {
+          "text": "I will not"
+        },
+        {
+          "text": "I would not"
+        },
+        {
+          "text": "me thinks not"
+        },
+        {
+          "text": "most certainly not"
+        },
+        {
+          "text": "naaah"
+        },
+        {
+          "text": "naah"
+        },
+        {
+          "text": "nah"
+        },
+        {
+          "text": "naw"
+        },
+        {
+          "text": "nay"
+        },
+        {
+          "text": "negative"
+        },
+        {
+          "text": "never"
+        },
+        {
+          "text": "no"
+        },
+        {
+          "text": "no !"
+        },
+        {
+          "text": "no."
+        },
+        {
+          "text": "no can do"
+        },
+        {
+          "text": "no chance"
+        },
+        {
+          "text": "no doubt"
+        },
+        {
+          "text": "noo"
+        },
+        {
+          "text": "nope"
+        },
+        {
+          "text": "not a chance"
+        },
+        {
+          "text": "not a snowball 's chance in hell"
+        },
+        {
+          "text": "not at all"
+        },
+        {
+          "text": "not by a long shot"
+        },
+        {
+          "text": "not by any means"
+        },
+        {
+          "text": "not especially"
+        },
+        {
+          "text": "no thanks"
+        },
+        {
+          "text": "no thank you"
+        },
+        {
+          "text": "not in a million years"
+        },
+        {
+          "text": "not likely"
+        },
+        {
+          "text": "not on your life"
+        },
+        {
+          "text": "not particularly"
+        },
+        {
+          "text": "not really"
+        },
+        {
+          "text": "not so much"
+        },
+        {
+          "text": "not that I know of"
+        },
+        {
+          "text": "not to my knowledge"
+        },
+        {
+          "text": "not to speak of"
+        },
+        {
+          "text": "not very often"
+        },
+        {
+          "text": "no way"
+        },
+        {
+          "text": "of course not"
+        },
+        {
+          "text": "on the contrary"
+        },
+        {
+          "text": "she does not"
+        },
+        {
+          "text": "she is not"
+        },
+        {
+          "text": "surely not"
+        },
+        {
+          "text": "that is disgusting"
+        },
+        {
+          "text": "that is impossible"
+        },
+        {
+          "text": "that is rubbish"
+        },
+        {
+          "text": "that is unbelievable"
+        },
+        {
+          "text": "that is wrong"
+        },
+        {
+          "text": "that really sucks"
+        },
+        {
+          "text": "they are not"
+        },
+        {
+          "text": "they do not"
+        },
+        {
+          "text": "thinks not"
+        },
+        {
+          "text": "unbelievable"
+        },
+        {
+          "text": "unfortunately not"
+        },
+        {
+          "text": "unlikely"
+        },
+        {
+          "text": "we do not"
+        },
+        {
+          "text": "well I never"
+        },
+        {
+          "text": "you are dead wrong"
+        },
+        {
+          "text": "you are having me on"
+        },
+        {
+          "text": "you are joking"
+        },
+        {
+          "text": "you are kidding"
+        },
+        {
+          "text": "you are not serious"
+        },
+        {
+          "text": "you can not be serious"
+        },
+        {
+          "text": "you have got that wrong"
+        },
+        {
+          "text": "you have got to be kidding"
+        }
+      ]
+    },
+    {
+      "intent": "yes",
+      "examples": [
+        {
+          "text": "absolutely"
+        },
+        {
+          "text": "accept"
+        },
+        {
+          "text": "accepted"
+        },
+        {
+          "text": "affirmative"
+        },
+        {
+          "text": "agree"
+        },
+        {
+          "text": "agreed"
+        },
+        {
+          "text": "ah yes"
+        },
+        {
+          "text": "a'ight"
+        },
+        {
+          "text": "all right"
+        },
+        {
+          "text": "alright"
+        },
+        {
+          "text": "apparently"
+        },
+        {
+          "text": "approve"
+        },
+        {
+          "text": "approved"
+        },
+        {
+          "text": "a'right"
+        },
+        {
+          "text": "assuredly"
+        },
+        {
+          "text": "ay"
+        },
+        {
+          "text": "aye"
+        },
+        {
+          "text": "beyond a doubt"
+        },
+        {
+          "text": "but of course"
+        },
+        {
+          "text": "by all means"
+        },
+        {
+          "text": "certainly"
+        },
+        {
+          "text": "completely"
+        },
+        {
+          "text": "confirmed"
+        },
+        {
+          "text": "Correct"
+        },
+        {
+          "text": "correctly"
+        },
+        {
+          "text": "definitely"
+        },
+        {
+          "text": "exactly"
+        },
+        {
+          "text": "fine"
+        },
+        {
+          "text": "Fine."
+        },
+        {
+          "text": "for a fact"
+        },
+        {
+          "text": "for certain"
+        },
+        {
+          "text": "for sure"
+        },
+        {
+          "text": "go ahead"
+        },
+        {
+          "text": "good"
+        },
+        {
+          "text": "hell yeah"
+        },
+        {
+          "text": "highly likely"
+        },
+        {
+          "text": "how true"
+        },
+        {
+          "text": "I agree"
+        },
+        {
+          "text": "I agree."
+        },
+        {
+          "text": "I am"
+        },
+        {
+          "text": "I comply."
+        },
+        {
+          "text": "I consent"
+        },
+        {
+          "text": "I could not agree with you more"
+        },
+        {
+          "text": "I did"
+        },
+        {
+          "text": "I do"
+        },
+        {
+          "text": "I do also"
+        },
+        {
+          "text": "if you say so"
+        },
+        {
+          "text": "I give consent"
+        },
+        {
+          "text": "I give my consent"
+        },
+        {
+          "text": "I guess"
+        },
+        {
+          "text": "I have no objection"
+        },
+        {
+          "text": "indeed"
+        },
+        {
+          "text": "indefinitely"
+        },
+        {
+          "text": "indubitably"
+        },
+        {
+          "text": "I too"
+        },
+        {
+          "text": "I totally agree"
+        },
+        {
+          "text": "literally"
+        },
+        {
+          "text": "makes sense"
+        },
+        {
+          "text": "most assuredly"
+        },
+        {
+          "text": "most certainly"
+        },
+        {
+          "text": "naturally"
+        },
+        {
+          "text": "nod"
+        },
+        {
+          "text": "nods"
+        },
+        {
+          "text": "no objections"
+        },
+        {
+          "text": "of course"
+        },
+        {
+          "text": "oh alright"
+        },
+        {
+          "text": "oh okay"
+        },
+        {
+          "text": "oh really"
+        },
+        {
+          "text": "oh sure"
+        },
+        {
+          "text": "oh yeah ?"
+        },
+        {
+          "text": "OK"
+        },
+        {
+          "text": "okay"
+        },
+        {
+          "text": "okey"
+        },
+        {
+          "text": "okey dokey"
+        },
+        {
+          "text": "Please do."
+        },
+        {
+          "text": "Please do that."
+        },
+        {
+          "text": "positively"
+        },
+        {
+          "text": "possibly"
+        },
+        {
+          "text": "precisely"
+        },
+        {
+          "text": "probably"
+        },
+        {
+          "text": "right"
+        },
+        {
+          "text": "right brah"
+        },
+        {
+          "text": "right-o"
+        },
+        {
+          "text": "righto"
+        },
+        {
+          "text": "right on"
+        },
+        {
+          "text": "righty-ho"
+        },
+        {
+          "text": "shure"
+        },
+        {
+          "text": "si"
+        },
+        {
+          "text": "supposedly"
+        },
+        {
+          "text": "sure"
+        },
+        {
+          "text": "surely"
+        },
+        {
+          "text": "sure thing"
+        },
+        {
+          "text": "that is alright"
+        },
+        {
+          "text": "that is correct"
+        },
+        {
+          "text": "that is good"
+        },
+        {
+          "text": "that is right"
+        },
+        {
+          "text": "that may be true"
+        },
+        {
+          "text": "totally"
+        },
+        {
+          "text": "touche"
+        },
+        {
+          "text": "true"
+        },
+        {
+          "text": "truly"
+        },
+        {
+          "text": "undoubtedly"
+        },
+        {
+          "text": "unquestionably"
+        },
+        {
+          "text": "very well"
+        },
+        {
+          "text": "very well indeed"
+        },
+        {
+          "text": "we can try"
+        },
+        {
+          "text": "we did"
+        },
+        {
+          "text": "well maybe you are right"
+        },
+        {
+          "text": "well perhaps you are right"
+        },
+        {
+          "text": "we should try"
+        },
+        {
+          "text": "will do"
+        },
+        {
+          "text": "with pleasure"
+        },
+        {
+          "text": "yah"
+        },
+        {
+          "text": "yea"
+        },
+        {
+          "text": "Yeah"
+        },
+        {
+          "text": "yeah definitely"
+        },
+        {
+          "text": "yeah sure"
+        },
+        {
+          "text": "yeah yeah"
+        },
+        {
+          "text": "yeh"
+        },
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "yes please"
+        },
+        {
+          "text": "yes really"
+        },
+        {
+          "text": "You've got it right."
+        },
+        {
+          "text": "Yup"
+        },
+        {
+          "text": "yuppers"
+        }
+      ],
+      "description": "yes intent for confirmation"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "flighttype",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "inbound",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "outbound",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "reservation_number",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "order_syntax",
+          "patterns": [
+            "[A-Z]{2}\\d{5}"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-currency",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_5_1633717937603",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1633718737928",
+      "context": {
+        "date": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_10_1633718737945"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1633718750174",
+      "context": {
+        "budget": "@sys-currency"
+      },
+      "conditions": "@sys-currency",
+      "event_name": "input",
+      "dialog_node": "handler_3_1633718750175"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is your budget??"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_6_1633718750174",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1633718750175",
+      "previous_sibling": "handler_3_1633718750175"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Is the flight inbound or outbound?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_9_1633718757855",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1633718757856",
+      "previous_sibling": "handler_8_1633718757856"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What day would you like to fly?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_7_1633718737928",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1633718737945",
+      "previous_sibling": "handler_10_1633718737945"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1633718757855",
+      "context": {
+        "flight": "@flighttype"
+      },
+      "conditions": "@flighttype",
+      "event_name": "input",
+      "dialog_node": "handler_8_1633718757856"
+    },
+    {
+      "type": "standard",
+      "title": "Yes",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. The order $ordernumber is canceled. We hope we get the opportunity to book you a flight sometime soon.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1633718322260",
+      "conditions": "#yes",
+      "dialog_node": "node_10_1633718361057"
+    },
+    {
+      "type": "standard",
+      "title": "Order number",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. The order $ordernumber is canceled. We hope we get the opportunity to book your next trip!\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1633718022590",
+      "context": {
+        "ordernumber": "<? @order_number.literal ?>"
+      },
+      "conditions": "@reservation_number",
+      "dialog_node": "node_1_1633718085687"
+    },
+    {
+      "type": "standard",
+      "title": "Cancel",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, I will end the task"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#CANCEL",
+      "dialog_node": "node_2_1633719217152",
+      "previous_sibling": "node_9_1633718699746"
+    },
+    {
+      "type": "standard",
+      "parent": "node_5_1633718322260",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_4_1633718022590"
+      },
+      "conditions": "true",
+      "dialog_node": "node_3_1633718394880",
+      "previous_sibling": "node_10_1633718361057"
+    },
+    {
+      "type": "standard",
+      "title": "Agency Opening Hours",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The agency is open today from 8:00am to 5:00pm"
+              },
+              {
+                "text": "Today we are open from 8:00am to 5:00pm"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#agency_operating_hours",
+      "dialog_node": "node_3_1633719316762",
+      "previous_sibling": "node_9_1633719261062"
+    },
+    {
+      "type": "standard",
+      "title": "Ask for order number",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is the order number?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1633717937603",
+      "conditions": "true",
+      "dialog_node": "node_4_1633718022590",
+      "previous_sibling": "node_5_1633718322260"
+    },
+    {
+      "type": "standard",
+      "title": "Cancel Order",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If the flight time is more than 48 hours from now, you can cancel your reservation."
+              },
+              {
+                "text": "I would be happy to cancel your reservation for you, although it will be sad to see you go..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "ordernumber": "<? @order_number.literal ?>"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#CancelOrder",
+      "dialog_node": "node_5_1633717937603",
+      "previous_sibling": "node_9_1633717107282"
+    },
+    {
+      "type": "standard",
+      "title": "Cancel over the phone",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I need the order number to cancel the order for you. If you don't know the order number, please call us at 958-234-3456 to cancel over the phone."
+              },
+              {
+                "text": "I'm sorry, I need the order number in order to cancel the order. If you don't have it, I suggest you call 123-456-7890"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1633718022590",
+      "conditions": "true",
+      "dialog_node": "node_5_1633718156791",
+      "previous_sibling": "node_1_1633718085687"
+    },
+    {
+      "type": "standard",
+      "title": "Number provided",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Just to confirm, you want to cancel order $ordernumber?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1633717937603",
+      "conditions": "@reservation_number",
+      "dialog_node": "node_5_1633718322260"
+    },
+    {
+      "type": "standard",
+      "title": "chit chat",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. How are you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#GREETING",
+      "dialog_node": "node_8_1633719178403",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "About Agency",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Welcome to Travel Agency! We can help you book flights, or cancel existing flights. We are located in Oakville. We are open from 8am to 5pm daily to help you with all your needs. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#aboutAgency",
+      "dialog_node": "node_9_1633717107282",
+      "previous_sibling": "node_3_1633719316762"
+    },
+    {
+      "type": "frame",
+      "title": "Reservation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "OK, I will send your information to a live agent, and they will let you know if we have an opening on any flight for $budget on $date coming/going $flight."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#FlightReservation",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1633718699746",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_8_1633719178403",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "General Help",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You can ask me to make you a reservation."
+              },
+              {
+                "text": "You can ask me to cancel an existing order."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#help",
+      "dialog_node": "node_9_1633719261062",
+      "previous_sibling": "node_2_1633719217152"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1633718699746",
+      "variable": "$budget",
+      "dialog_node": "slot_6_1633718750174",
+      "previous_sibling": "slot_7_1633718737928"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1633718699746",
+      "variable": "$date",
+      "dialog_node": "slot_7_1633718737928"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1633718699746",
+      "variable": "$flight",
+      "dialog_node": "slot_9_1633718757855",
+      "previous_sibling": "slot_6_1633718750174"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "FoodHelper",
+  "language": "en",
+  "description": "Attempt 3"
+}
